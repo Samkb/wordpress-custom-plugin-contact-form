@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 /*
  * Post Types for plugin
  * @package HTD_Contact_Form
@@ -55,7 +54,7 @@ class HTD_CF_Post_Type {
 			'show_in_menu'        => true,
 			'show_in_admin_bar'   => true,
 			'menu_position'       => null,
-			'menu_icon'           => 'dashicons-welcome-add-page',
+			'menu_icon'           => 'dashicons-list-view',
 			'show_in_nav_menus'   => false,
 			'publicly_queryable'  => false,
 			'exclude_from_search' => true,

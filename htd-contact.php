@@ -104,6 +104,7 @@ final class HTD_Contact_Form {
             
 			include sprintf( '%s/inc/class-htd-cf-post-types.php', HTD_CONTACT_FORM_ABSPATH );
 			include sprintf( '%s/inc/class-admin-metaboxes.php', HTD_CONTACT_FORM_ABSPATH );
+			include sprintf( '%s/inc/class-htd-form-shortcode.php', HTD_CONTACT_FORM_ABSPATH );
 					
 
 			// if ( $this->is_request( 'admin' ) ) {

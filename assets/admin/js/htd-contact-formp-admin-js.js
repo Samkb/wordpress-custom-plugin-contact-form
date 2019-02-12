@@ -9,6 +9,16 @@ $('#add_field').click(function(e){
 
 });
 
+    $(document).on('click', '.remove-group', function(e) {
+
+    e.preventDefault();
+
+    $(this).parents('.f-options-group').remove();
+
+});
+
+$('#htd-form-field-wrap').sortable();
+
 
 
 }(jQuery));
